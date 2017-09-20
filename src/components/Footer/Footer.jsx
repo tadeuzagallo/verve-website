@@ -24,7 +24,7 @@ class Footer extends Component {
 
           <div className="rss">
             <Link to={url}>
-              <Button flat secondary iconClassName="fa fa-rss">
+              <Button flat primary iconClassName="fa fa-rss">
                 Subscribe
               </Button>
             </Link>
@@ -34,7 +34,7 @@ class Footer extends Component {
               Based on{" "}
               <a href="https://github.com/Vagr9K/gatsby-material-starter">
                 Gatsby Material Starter
-              </a>.
+              </a>
             </h4>
           </div>
         </div>

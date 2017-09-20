@@ -17,8 +17,8 @@ class Index extends React.Component {
         </Helmet>
         <div style={{display: 'flex', flexDirection: 'row'}}>
           <div style={{flex: 1, textAlign: 'center'}}>
-            <img src="/logos/logo-name.png" style={{marginTop: '12em'}} />
-            <h1 style={{marginTop: '2em', padding: '0 2em'}}>
+            <img src="/logos/logo-name-bottom.png" style={{marginTop: '8em'}} />
+            <h1 className="md-display-1 subtitle" style={{marginTop: '2em', padding: '0 2em'}}>
               Verve is a functional language for the working programmer
             </h1>
           </div>

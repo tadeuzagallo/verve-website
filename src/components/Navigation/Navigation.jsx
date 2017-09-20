@@ -19,6 +19,8 @@ class Navigation extends Component {
     return (
       <div>
         <Toolbar
+          fixed
+          themed
           titleMenu={<img src="/logos/logo.png"/>}
           actions={<ToolbarActions config={config} />}
         />

@@ -3,8 +3,8 @@
 .footer {
     justify-content: center;
     align-content: center;
-    background-color: $md-primary-color;
-    padding: 10px 5px 5px;
+    background-color: $md-secondary-color;
+    padding: 10px 26px;
 
     .notice-container {
         display: flex;
@@ -44,9 +44,14 @@
         }
 
         h4 {
-            color: $md-secondary-color;
+            color: $md-primary-color;
             text-align: center;
             margin: 0;
+        }
+
+        a {
+            color: $md-primary-color;
+            text-decoration: underline;
         }
     }
 }

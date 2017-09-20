@@ -9,8 +9,9 @@ html {
 body {
     margin: 0;
 }
+
 .token.operator {
-  background: none;
+  background: none !important;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700|Material+Icons');
@@ -18,3 +19,7 @@ body {
 @import 'theme.scss';
 
 @include react-md-everything;
+
+.subtitle {
+  color: #77A1CF;
+}
