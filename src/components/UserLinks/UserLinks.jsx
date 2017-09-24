@@ -6,9 +6,9 @@ class UserLinks extends Component {
   render() {
     return (
       <div className="user-links">
-        <Button flat secondary>Getting Started</Button>
-        <Button flat secondary>Docs</Button>
-        <Button flat secondary>GitHub</Button>
+        <Button flat secondary href="/getting-started">Getting Started</Button>
+        <Button flat secondary href="/docs">Docs</Button>
+        <Button flat secondary href="https://github.com/tadeuzagallo/verve-lang">GitHub</Button>
       </div>
     );
   }

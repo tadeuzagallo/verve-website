@@ -10,18 +10,12 @@ class Navigation extends Component {
   render() {
     const { children, config } = this.props;
 
-        //drawerTitle={config.siteTitle}
-        //navItems={GetNavList(config)}
-        //mobileDrawerType={NavigationDrawer.DrawerTypes.TEMPORARY}
-        //tabletDrawerType={NavigationDrawer.DrawerTypes.TEMPORARY}
-        //desktopDrawerType={NavigationDrawer.DrawerTypes.TEMPORARY}
-        //toolbarActions={<ToolbarActions config={config} />}
     return (
       <div>
         <Toolbar
           fixed
           themed
-          titleMenu={<img src="/logos/logo.png"/>}
+          titleMenu={<a ref="logo" href="/"><img src="/logos/logo.svg"/></a>}
           actions={<ToolbarActions config={config} />}
         />
         <main className="main-content">

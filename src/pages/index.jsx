@@ -17,9 +17,9 @@ class Index extends React.Component {
         </Helmet>
         <div style={{display: 'flex', flexDirection: 'row'}}>
           <div style={{flex: 1, textAlign: 'center'}}>
-            <img src="/logos/logo-name-bottom.png" style={{marginTop: '8em'}} />
+            <img src="/logos/logo-name-bottom.svg" style={{marginTop: '8em'}} />
             <h1 className="md-display-1 subtitle" style={{marginTop: '2em', padding: '0 2em'}}>
-              Verve is a functional language for the working programmer
+              Verve is a functional language for the working hacker
             </h1>
           </div>
           <pre ref={el => this.preEl = el} className="language-verve" style={{flex: 1}}>
