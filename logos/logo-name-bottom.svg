@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="222px" height="210px" viewBox="0 0 222 210" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Logo-bottom-center-1x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#5D86C3" offset="0%"></stop>
+            <stop stop-color="#96BBE3" offset="46.5441645%"></stop>
+            <stop stop-color="#5D86C3" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-2" points="89.2494781 78.5314577 109.796277 59.6944444 109.616861 141.921491 89.2494781 159.771821"></polygon>
+        <linearGradient x1="50%" y1="20.4451457%" x2="50%" y2="72.5242474%" id="linearGradient-3">
+            <stop stop-color="#7B80D1" offset="0%"></stop>
+            <stop stop-color="#51318D" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-4" points="32.2746825 54.6366791 52.821481 71.8866079 52.821481 137.567836 32.2746825 158.305166"></polygon>
+        <linearGradient x1="50%" y1="79.3924644%" x2="50%" y2="20.4451463%" id="linearGradient-5">
+            <stop stop-color="#7B80D1" offset="0%"></stop>
+            <stop stop-color="#51318D" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-6" points="32.9754116 13.3280694 54.1131223 -4.09787234 53.8373797 97.3482695 33.5663238 76.8662354"></polygon>
+        <linearGradient x1="50%" y1="20.4451457%" x2="50%" y2="80.4341731%" id="linearGradient-7">
+            <stop stop-color="#7B80D1" offset="0%"></stop>
+            <stop stop-color="#51318D" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-8" points="196.899264 -5.28085021 217.446063 11.9690786 217.446063 77.6503064 196.899264 98.3876372"></polygon>
+        <polygon id="path-9" points="195.915205 72.4972257 217.052915 55.8741935 216.777173 157.320335 196.506117 136.838301"></polygon>
+        <linearGradient x1="49.927783%" y1="100%" x2="49.927783%" y2="0%" id="linearGradient-10">
+            <stop stop-color="#96BBE3" offset="0%"></stop>
+            <stop stop-color="#759FCD" offset="46.6039541%"></stop>
+            <stop stop-color="#96BBE3" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-11" points="114.482218 -11.6720833 135.029016 5.12834814 135.029016 165.580585 114.482218 148.439543"></polygon>
+    </defs>
+    <g id="wallpaper" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Logo-bottom-center-1x" transform="translate(-14.000000, -13.000000)">
+            <text id="verve" font-family="Orbitron-Medium, Orbitron" font-size="60" font-weight="400" fill="#5E609E">
+                <tspan x="26" y="223">verve</tspan>
+            </text>
+            <g id="logo">
+                <g id="Rectangle-1" transform="translate(99.522877, 109.733133) rotate(45.000000) translate(-99.522877, -109.733133) ">
+                    <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    <path stroke="#111111" stroke-width="1" d="M89.7494781,78.7513892 L89.7494781,158.668762 L109.117355,141.694416 L109.29379,60.8334412 L89.7494781,78.7513892 Z"></path>
+                </g>
+                <g id="Rectangle-1" transform="translate(42.548082, 106.470923) scale(-1, -1) rotate(-40.000000) translate(-42.548082, -106.470923) ">
+                    <use fill="url(#linearGradient-3)" fill-rule="evenodd" xlink:href="#path-4"></use>
+                    <path stroke="#111111" stroke-width="1" d="M32.7746825,55.7092971 L32.7746825,157.090137 L52.321481,137.362079 L52.321481,72.1196825 L32.7746825,55.7092971 Z"></path>
+                </g>
+                <g id="Rectangle-1" transform="translate(43.544267, 46.625199) rotate(45.000000) translate(-43.544267, -46.625199) ">
+                    <use fill="url(#linearGradient-5)" fill-rule="evenodd" xlink:href="#path-6"></use>
+                    <path stroke="#111111" stroke-width="1" d="M33.4776094,13.5620612 L34.0644155,76.6587151 L53.3406741,96.1355981 L53.6102323,-3.03528551 L33.4776094,13.5620612 Z"></path>
+                </g>
+                <g id="Rectangle-1" transform="translate(207.172663, 46.553393) rotate(-40.000000) translate(-207.172663, -46.553393) ">
+                    <use fill="url(#linearGradient-7)" fill-rule="evenodd" xlink:href="#path-8"></use>
+                    <path stroke="#111111" stroke-width="1" d="M197.399264,-4.20823223 L197.399264,97.1726078 L216.946063,77.4445501 L216.946063,12.2021532 L197.399264,-4.20823223 Z"></path>
+                </g>
+                <g id="Rectangle-1" transform="translate(206.484060, 106.597264) scale(-1, -1) rotate(45.000000) translate(-206.484060, -106.597264) ">
+                    <use fill="url(#linearGradient-5)" fill-rule="evenodd" xlink:href="#path-9"></use>
+                    <path stroke="#111111" stroke-width="1" d="M196.41744,72.7383512 L197.004232,136.630805 L216.280467,156.107664 L216.55011,56.9056995 L196.41744,72.7383512 Z"></path>
+                </g>
+                <g id="Rectangle-1" transform="translate(124.755617, 76.954251) rotate(-40.000000) translate(-124.755617, -76.954251) ">
+                    <use fill="url(#linearGradient-10)" fill-rule="evenodd" xlink:href="#path-11"></use>
+                    <path stroke="#111111" stroke-width="1" d="M114.982218,-10.6173826 L114.982218,148.205519 L134.529016,164.512317 L134.529016,5.36538221 L114.982218,-10.6173826 Z"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
