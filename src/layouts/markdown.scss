@@ -1,0 +1,18 @@
+@import 'theme.scss';
+
+.markdown-page {
+  max-width: 1000px;
+  padding: 1.618em 3.236em;
+
+  h1 {
+    color: $md-secondary-color;
+  }
+
+  h2 {
+    color: $md-tertiary-color;
+  }
+
+  p {
+    font-size: 16px !important;
+  }
+}

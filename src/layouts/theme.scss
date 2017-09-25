@@ -4,14 +4,35 @@
 //$md-secondary-color: #5B449D;
 $md-primary-color: #FFFFFF;
 $md-secondary-color: #5B449D;
-$md-tertiary-color: #7AB2CC;
+$md-tertiary-color: lighten($md-secondary-color, 15%);
 
 .main-container,
 .darker-background {
 }
 
-html, body {
-  min-height: 100%;
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  position: relative;
+  min-height: calc(100% - 60px);
+  padding-bottom: 40px;
+  box-sizing: border-box;
+}
+
+.footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 a:link {

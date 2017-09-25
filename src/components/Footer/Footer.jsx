@@ -7,7 +7,6 @@ import "./Footer.scss";
 
 class Footer extends Component {
   render() {
-    const url = config.siteRss;
     const { userLinks } = this.props;
     const copyright = config.copyright;
     if (!copyright) {
@@ -22,13 +21,6 @@ class Footer extends Component {
             </h4>
           </div>
 
-          <div className="rss">
-            <Link to={url}>
-              <Button flat primary iconClassName="fa fa-rss">
-                Subscribe
-              </Button>
-            </Link>
-          </div>
           <div className="based-on">
             <h4>
               Based on{" "}

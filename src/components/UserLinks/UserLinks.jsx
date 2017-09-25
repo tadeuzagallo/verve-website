@@ -7,7 +7,7 @@ class UserLinks extends Component {
     return (
       <div className="user-links">
         <Button flat secondary href="/getting-started">Getting Started</Button>
-        <Button flat secondary href="/docs">Docs</Button>
+        <Button flat secondary href="https://docs.verve-lang.org">Docs</Button>
         <Button flat secondary href="https://github.com/tadeuzagallo/verve-lang">GitHub</Button>
       </div>
     );

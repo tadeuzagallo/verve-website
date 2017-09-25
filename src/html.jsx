@@ -3,6 +3,7 @@
 /* eslint global-require:"off" */
 import React from "react";
 import favicon from "./favicon.png";
+import Prism from "prismjs"
 
 let inlinedStyles = "";
 if (process.env.NODE_ENV === "production") {

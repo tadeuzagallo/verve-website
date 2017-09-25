@@ -10,16 +10,24 @@ body {
     margin: 0;
 }
 
-.token.operator {
-  background: none !important;
-}
-
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700|Material+Icons');
 @import '~react-md/src/scss/react-md';
 @import 'theme.scss';
 
 @include react-md-everything;
 
+pre[class*="language-"] {
+  background-color: #f4f4f6;
+}
+
 .subtitle {
-  color: #77A1CF;
+  color: $md-tertiary-color;
+}
+
+.token.function {
+  color: $md-secondary-color;
+}
+
+.token.operator {
+  background: none !important;
 }
