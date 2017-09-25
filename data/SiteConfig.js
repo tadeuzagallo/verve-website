@@ -5,9 +5,7 @@ module.exports = {
   siteUrl: "https://verve-lang.org", // Domain of your website without pathPrefix.
   pathPrefix: "/", // Prefixes all links. For cases when deployed to example.github.io/gatsby-material-starter/.
   siteDescription: "A functional language for the working hacker.", // Website description used for RSS feeds/meta description tag..
-  siteFBAppID: "", // FB Application ID for using app insights
-  siteGATrackingID: "", // Tracking code ID for google analytics.
-  disqusShortname: "", // Disqus shortname.
+  siteGATrackingID: "UA-47264623-3", // Tracking code ID for google analytics.
   userName: "Tadeu Zagallo", // Username to display in the author segment.
   userTwitter: "tadeuzagallo", // Optionally renders "Follow Me" in the UserInfo segment.
   userLocation: "Amsterdam, NL", // User location to display in the author segment.
