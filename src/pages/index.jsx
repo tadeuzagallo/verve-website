@@ -26,7 +26,7 @@ enum Shape {
 }
 
 interface Area<T> {
-  fn area(x: T) -> Int
+  let area : (T) -> Int
 }
 
 implementation Area<Shape> {
