@@ -11,3 +11,8 @@
         }
     }
 }
+.md-toolbar--action-right {
+  @media (max-width: 640px - 1) {
+    display: none;
+  }
+}

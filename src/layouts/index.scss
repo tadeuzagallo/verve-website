@@ -31,3 +31,32 @@ pre[class*="language-"] {
 .token.operator {
   background: none !important;
 }
+
+.md-btn--toolbar {
+  display: none;
+}
+
+.md-drawer--left > header {
+  display: none;
+}
+
+@media (max-width: 640px - 1) {
+  .md-btn--toolbar {
+    display: block;
+  }
+
+  .md-title--toolbar {
+    position: absolute;
+    left: 50%;
+    margin-left: -31px;
+    margin-top: 8px !important;
+  }
+
+  .code-split {
+    flex-direction: column !important;
+  }
+
+  .tagline {
+    font-size: 21px;
+  }
+}

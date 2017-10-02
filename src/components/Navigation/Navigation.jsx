@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Button from "react-md/lib/Buttons";
-import Toolbar from "react-md/lib/Toolbars";
+import NavigationDrawer from "react-md/lib/NavigationDrawers";
 import ToolbarActions from "../ToolbarActions/ToolbarActions";
 import Footer from "../Footer/Footer";
 import GetNavList from "./NavList";
@@ -11,20 +11,18 @@ class Navigation extends Component {
     const { children, config } = this.props;
 
     return (
-      <div>
-        <Toolbar
-          fixed
-          themed
-          titleMenu={<a ref="logo" href="/"><img src="/logos/logo.svg"/></a>}
-          actions={<ToolbarActions config={config} />}
-        />
-        <main className="main-content">
-          <div className="main-container">
-            {children}
-          </div>
-        </main>
-        <Footer userLinks={true} />
-      </div>
+      <NavigationDrawer
+        toolbarThemeType="themed"
+        toolbarTitleMenu={<a ref="logo" href="/"><img src="/logos/logo.svg"/></a>}
+        toolbarActions={<ToolbarActions config={config} />}
+        desktopDrawerType={NavigationDrawer.DrawerTypes.FULL_HEIGHT}
+        navItems={GetNavList(config)}
+      >
+        <div className="main-container">
+          {children}
+        </div>
+        <Footer />
+      </NavigationDrawer>
     );
   }
 }

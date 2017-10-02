@@ -10,10 +10,10 @@ class Index extends React.Component {
           <title>{config.siteTitle}</title>
           <link rel="canonical" href={`${config.siteUrl}`} />
         </Helmet>
-        <div style={{display: 'flex', flexDirection: 'row'}}>
+        <div className="code-split" style={{display: 'flex', flexDirection: 'row'}}>
           <div style={{flex: 1, textAlign: 'center'}}>
             <img src="/logos/logo-name-bottom.svg" style={{marginTop: '8em'}} />
-            <h1 className="md-display-1 subtitle" style={{marginTop: '20px', padding: '0 2em'}}>
+            <h1 className="md-display-1 subtitle tagline" style={{marginTop: '20px', padding: '0 2em'}}>
               is a functional language for the working hacker
             </h1>
           </div>
