@@ -15,7 +15,7 @@ class Navigation extends Component {
         toolbarThemeType="themed"
         toolbarTitleMenu={<a ref="logo" href="/"><img src="/logos/logo.svg"/></a>}
         toolbarActions={<ToolbarActions config={config} />}
-        desktopDrawerType={NavigationDrawer.DrawerTypes.FULL_HEIGHT}
+        desktopDrawerType={NavigationDrawer.DrawerTypes.TEMPORARY}
         navItems={GetNavList(config)}
       >
         <div className="main-container">
