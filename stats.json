@@ -1,44 +1,46 @@
 {
   "assetsByChunkName": {
     "path---": [
-      "path----6611940bd40871b680a6.js",
-      "path----6611940bd40871b680a6.js.map"
+      "path----557518bd178906f8d58a.js",
+      "path----557518bd178906f8d58a.js.map"
     ],
     "component---src-layouts-index-jsx": [
-      "component---src-layouts-index-jsx-3791ac1bae1fb8a06c24.js",
-      "component---src-layouts-index-jsx-3791ac1bae1fb8a06c24.js.map"
+      "component---src-layouts-index-jsx-5c5adc2426787dbea2b2.js",
+      "component---src-layouts-index-jsx-5c5adc2426787dbea2b2.js.map"
     ],
     "component---node-modules-gatsby-plugin-offline-app-shell-js": [
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
     ],
     "path---getting-started": [
-      "path---getting-started-b3bd18df751465469550.js",
-      "path---getting-started-b3bd18df751465469550.js.map"
+      "path---getting-started-cbfc55d76cab5c3ee615.js",
+      "path---getting-started-cbfc55d76cab5c3ee615.js.map"
     ],
     "component---src-templates-markdown-jsx": [
       "component---src-templates-markdown-jsx-eea19733e357148af7b6.js",
       "component---src-templates-markdown-jsx-eea19733e357148af7b6.js.map"
     ],
     "path---index": [
-      "path---index-586c7e095e534a3909ec.js",
-      "path---index-586c7e095e534a3909ec.js.map"
+      "path---index-a0e39f21c11f6a62c5ab.js",
+      "path---index-a0e39f21c11f6a62c5ab.js.map"
     ],
     "commons": [
-      "commons-5902d053db8f8c396e34.js",
-      "commons-5902d053db8f8c396e34.js.map"
+      "commons-7244c7bf147d6099d794.js",
+      "commons-7244c7bf147d6099d794.js.map"
     ],
     "path---offline-plugin-app-shell-fallback": [
-      "path---offline-plugin-app-shell-fallback-586c7e095e534a3909ec.js",
-      "path---offline-plugin-app-shell-fallback-586c7e095e534a3909ec.js.map"
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-index-jsx": [
-      "component---src-pages-index-jsx-8b4d3088ac039fda5661.js",
-      "component---src-pages-index-jsx-8b4d3088ac039fda5661.js.map"
+      "component---src-pages-index-jsx-d5a89fb8ccc29a894dcf.js",
+      "component---src-pages-index-jsx-d5a89fb8ccc29a894dcf.js.map"
     ],
     "app": [
-      "app-d42b12fe07d6a7ee7f67.js",
-      "app-d42b12fe07d6a7ee7f67.js.map"
+      "app-6c0131c67819fc063fc4.js",
+      "build-js-styles.css",
+      "app-6c0131c67819fc063fc4.js.map",
+      "build-js-styles.css.map"
     ]
   }
 }
