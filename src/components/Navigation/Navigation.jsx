@@ -13,7 +13,8 @@ class Navigation extends Component {
     return (
       <NavigationDrawer
         toolbarThemeType="themed"
-        toolbarTitleMenu={<a ref="logo" href="/"><img src="/logos/logo.svg"/></a>}
+        toolbarTitle={<a href="/"><img alt="logo" src="/logos/logo.svg" /></a>}
+        toolbarTitleStyle={{display: 'flex'}}
         toolbarActions={<ToolbarActions config={config} />}
         desktopDrawerType={NavigationDrawer.DrawerTypes.TEMPORARY}
         navItems={GetNavList(config)}

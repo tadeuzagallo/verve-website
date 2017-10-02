@@ -17,19 +17,19 @@ function GetNavList(config) {
       primaryText: "Getting Started",
       leftIcon: <FontIcon forceSize iconClassName="fa fa-terminal"/>,
       component: Link,
-      to: "/"
+      to: "/getting-started"
     },
     {
       primaryText: "Docs",
       leftIcon: <FontIcon forceSize iconClassName="fa fa-book"/>,
-      component: Link,
-      to: "/"
+      component: 'a',
+      href: "https://docs.verve-lang.org"
     },
     {
       primaryText: "GitHub",
       leftIcon: <FontIcon forceSize iconClassName="fa fa-github"/>,
-      component: Link,
-      to: "/"
+      component: 'a',
+      href: "https://github.com/tadeuzagallo/verve-lang"
     },
   ];
 

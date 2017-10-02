@@ -47,9 +47,10 @@ pre[class*="language-"] {
 
   .md-title--toolbar {
     position: absolute;
+    height: 100%;
     left: 50%;
     margin-left: -31px;
-    margin-top: 8px !important;
+    margin-top: 0 !important;
   }
 
   .code-split {
