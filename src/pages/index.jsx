@@ -30,7 +30,7 @@ interface Area<T> {
 }
 
 implementation Area<Shape> {
-  fn area(s: Shape) -> Int {
+  fn area(s) {
     match s {
       case Square(x): x * x
       case Rectangle(x, y): x * y
@@ -46,7 +46,7 @@ class House {
 }
 
 implementation Area<House> {
-  fn area(h: House) -> Int {
+  fn area(h) {
     reduce((+), 0, map(area, h.rooms))
   }
 }
