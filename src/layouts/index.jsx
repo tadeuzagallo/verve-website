@@ -12,6 +12,10 @@ import "./global.scss";
 import "./prism-verve";
 
 export default class MainLayout extends React.Component {
+  componentDidUpdate() {
+    Prism.highlightAll();
+  }
+
   render() {
     const { children } = this.props;
     return (
