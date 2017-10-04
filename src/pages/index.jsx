@@ -2,23 +2,24 @@ import React from "react";
 import Helmet from "react-helmet";
 import config from "../../data/SiteConfig";
 
+import "./index.scss"
+
 class Index extends React.Component {
   render() {
     return (
-      <div className="index-container">
+      <div className="index-container code-split">
         <Helmet>
           <title>{config.siteTitle}</title>
           <link rel="canonical" href={`${config.siteUrl}`} />
         </Helmet>
-        <div className="code-split" style={{display: 'flex', flexDirection: 'row'}}>
-          <div style={{flex: 1, textAlign: 'center'}}>
-            <img src="/logos/logo-name-bottom.svg" style={{marginTop: '8em'}} />
-            <h1 className="md-display-1 subtitle tagline" style={{marginTop: '20px', padding: '0 2em'}}>
-              is a functional language for the working hacker
-            </h1>
-          </div>
-          <pre ref={el => this.preEl = el} className="language-verve" style={{flex: 1}}>
-            <code className="language-verve">
+        <div className="logo-container">
+          <img src="/logos/logo-name-bottom.svg" alt="Verve logo" />
+          <h1 className="md-display-1 subtitle tagline">
+            is a functional language for the working hacker
+          </h1>
+        </div>
+        <pre ref={el => { this.preEl = el }} className="language-verve">
+          <code className="language-verve">
 {`
 enum Shape {
   Square(Int)
@@ -53,9 +54,8 @@ implementation Area<House> {
 
 House { rooms: [Square(10), Rectangle(4, 5)] }.area() // => 120 : Int
 `}
-            </code>
-          </pre>
-        </div>
+          </code>
+        </pre>
       </div>
     );
   }

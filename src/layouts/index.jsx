@@ -20,12 +20,10 @@ export default class MainLayout extends React.Component {
     const { children } = this.props;
     return (
       <Navigation config={config}>
-        <div>
-          <Helmet>
-            <meta name="description" content={config.siteDescription} />
-          </Helmet>
-          {children()}
-        </div>
+        <Helmet>
+          <meta name="description" content={config.siteDescription} />
+        </Helmet>
+        {children()}
       </Navigation>
     );
   }
